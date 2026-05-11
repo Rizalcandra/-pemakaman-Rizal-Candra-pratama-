@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="jv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acara Pemakaman - Rizal Candra Pratama</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #000;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px 60px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            text-decoration: underline;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .nomor {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .indent {
+            text-indent: 40px;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0 20px 0;
+        }
+        .data-table td {
+            padding: 4px 5px;
+            vertical-align: top;
+        }
+        .data-table .label {
+            width: 180px;
+            font-weight: bold;
+        }
+        .signatures {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            width: 100%;
+        }
+        .sig-block {
+            width: 45%;
+            text-align: center;
+        }
+        .sig-space {
+            margin-top: 70px; /* Papan kanggé tapak asma */
+            font-weight: bold;
+            border-bottom: 1px solid #000;
+            display: inline-block;
+            padding-bottom: 2px;
+        }
+        .btn-print {
+            display: block;
+            margin: 20px auto 0;
+            padding: 10px 20px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-family: sans-serif;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+        .btn-print:hover {
+            background-color: #1a252f;
+        }
+
+        /* Pengaturan nalika dipun-cetak */
+        @media print {
+            body {
+                background-color: #fff;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 0;
+            }
+            .btn-print {
+                display: none; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Berita Acara Pemakaman</h1>
+        <div class="nomor">Nomer: 045/BA-RC/XI/2023</div>
+
+        <p class="indent">
+            Ing dinten Jemuwah, tanggal 17 Novèmber 2023, kawula ingkang nindakaken tapak asma ing ngandhap punika ngendikani kanthi sajatosipun bilih sampun nindakaken upacara pemakaman sarira ingkang katura:
+        </p>
+
+        <table class="data-table">
+            <tr>
+                <td class="label">Asma Almarhum</td>
+                <td>: <strong>Rizal Candra Pratama</strong></td>
+            </tr>
+            <tr>
+                <td class="label">Papan/Tanggal Lair</td>
+                <td>: Surakarta, 12 Mèi 1988</td>
+            </tr>
+            <tr>
+                <td class="label">Jinis Kelamin</td>
+                <td>: Lanang</td>
+            </tr>
+            <tr>
+                <td class="label">Agami</td>
+                <td>: Islam</td>
+            </tr>
+            <tr>
+                <td class="label">Alamat Pungkasan</td>
+                <td>: Dhusun Gedhé, RT 03 RW 05, Kacamatan Lawéyan, Kutha Surakarta</td>
+            </tr>
+            <tr>
+                <td class="label">Seda Ing Dinten</td>
+                <td>: Dinten Kemis, 16 Novèmber 2023 jam 20.30 WIB</td>
+            </tr>
+            <tr>
+                <td class="label">Sabab Sedane</td>
+                <td>: Sakit lir-lirahan (sakit paru-paru)</td>
+            </tr>
+        </table>
+
+        <p class="indent">
+            Sarira almarhum sampun kasarekaken wonten ing Pemakaman Umum Taman Kembang, ingkang papanipun wonten Dhusun Gedhé, Kacamatan Lawéyan, Kutha Surakarta, ing dinten Jemuwah tanggal 17 Novèmber 2023 jam 08.00 WIB, kanthi mithutusi adat istiadat saha tata cara agami Islam.
+        </p>
+
+        <p class="indent">
+            Mangkika menika berita acara pemakaman punika dipun-damel kanthi sajatosipun saking raos prayitna, saha sampun siap dipun-ginakaken kanggé kaperluan ingkang badhé tumut mriki.
+        </p>
+
+        <div class="signatures">
+            <div class="sig-block">
+                <div>Mangertosani,</div>
+                <div>Lurah Dhusun Gedhé</div>
+                <div style="font-style: italic; font-size: 12px;">(Pejabat Setempat)</div>
+                <div class="sig-space">( Budi Santoso )</div>
+            </div>
+            <div class="sig-block">
+                <div>Ingkang Damel Berita Acara,</div>
+                <div>Kulawarga Almarhum</div>
+                <div style="font-style: italic; font-size: 12px; margin-bottom: 10px;">&nbsp;</div>
+                <div class="sig-space">( Agus Prasetyo )</div>
+            </div>
+        </div>
+
+        <!-- Papan Saksi -->
+        <div style="margin-top: 60px; text-align: center;">
+            <div>Saksi-Saksi Pemakaman,</div>
+            <div style="display: flex; justify-content: space-around; margin-top: 10px;">
+                <div class="sig-block" style="width: 30%;">
+                    <div class="sig-space">( Sutrisno )</div>
+                </div>
+                <div class="sig-block" style="width: 30%;">
+                    <div class="sig-space">( Wiji Lestari )</div>
+                </div>
+                <div class="sig-block" style="width: 30%;">
+                    <div class="sig-space">( Hariono )</div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn-print" onclick="window.print()">Cetak Surat (Print)</button>
+    </div>
+
+</body>
+</html>
